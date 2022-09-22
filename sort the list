@@ -1,0 +1,51 @@
+Write a Python Program to merge two lists and sort it.
+
+Input & Output Format:
+
+Input consists of two integers and two lists.
+
+First input consists of size of the first list.
+
+Second inputs corresponds to the elements of the first list.
+
+Third input consists of size of the second list.
+
+Fourth inputs corresponds to the elements of the second list.
+
+Output consists of the sorted elements
+
+Sample Input & Output:
+
+3
+
+1
+
+2
+
+3
+
+3
+
+1
+
+5
+
+6
+
+
+Sorted list is: [1, 1, 2, 3, 5, 6]
+
+solution:
+n1=int(input())
+ls1=[]
+for i in range(n1):
+    a=int(input())
+    ls1.append(a)
+n2=int(input())
+ls2=[]
+for i in range(n2):
+    b=int(input())
+    ls2.append(b)
+total=ls1+ls2
+total.sort()
+print("Sorted list is: ",total)
