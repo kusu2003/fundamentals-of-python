@@ -1,0 +1,57 @@
+Write a  program to calculate the hotel tariff. The room rent is 20% high during peak seasons [April-June, November-December] .
+
+Input Format:
+
+The first line of the input contains an integer which corresponds to the number of the month. [ January is 1, Feb is 2 and so on].  
+
+The second line of the input consists of a floating point number which corresponds to the room rent per day. 
+
+The third line of the input consists of an integer which corresponds to the number of days stayed in the hotel.
+
+Output Format:
+
+Output consists of a single line which displays the hotel tariff to be payed.  
+
+Hotel tariff should be displayed correct to 2 decimal places. 
+
+Refer  sample output  for format details.
+
+Sample Input 1:
+
+3
+
+1500
+
+2
+
+Sample Output 1:
+
+Hotel Tariff: Rs.3000.00
+
+Sample Input 2:
+
+4
+
+2000
+
+2
+
+Sample Output 2:
+
+Hotel Tariff: Rs.4800.00
+
+solution:
+a=int(input())
+b=float(input())
+c=int(input())
+if(a==4 or a==5 or a==6 or a==11 or a==12):
+    p=20/100*b*c
+    q=b*c
+    r=p+q
+    print("Hotel Tariff:Rs. %.2f" %r)
+elif(a==1 or a==2 or a==3 or a==7 or a==8 or a==9 or a==10):
+    s=b*c
+    print("Hotel Tariff:Rs. %.2f" %s)
+else:
+    print("Invalid input")
+        
