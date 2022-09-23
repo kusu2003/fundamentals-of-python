@@ -1,9 +1,6 @@
 Input consists of a string.
-
 Output consists of two integers.
-
 First output refers to the count of the words.
-
 Second output refers to the count of the characters in a given string,
 
 Sample Input & Output:
@@ -12,6 +9,7 @@ Cyfuno
 6
 
 solution:
+
 s=input()
 space=s.count(" ")
 words=space+1
