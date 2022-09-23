@@ -1,0 +1,14 @@
+Write a Python program to reverse a tuple.
+
+Sample Input & Output:
+
+cyfuno
+
+('o', 'n', 'u', 'f', 'y', 'c')
+
+solution:
+n=input()
+lst=list(n)
+lst.reverse()
+tp=tuple(lst)
+print(tp)
