@@ -1,0 +1,16 @@
+Write a Python program to find the length of a tuple.
+
+Sample Input/Output: 
+
+
+cyfuno
+
+('c', 'y', 'f', 'u', 'n', 'o')
+
+6
+
+solution:
+n=input()
+tp=tuple(n)
+print(tp)
+print(len(tp))
